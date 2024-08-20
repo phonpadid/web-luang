@@ -10,16 +10,15 @@
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <!-- Google Fonts -->
+
     <link
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
     <style>
       body {
         background-color: #7aa7d4; /* Custom background color */
-        font-family: "Noto Sans Lao", sans-serif; /* Font for the entire page */
+        font-family: Noto Sans Lao, sans-serif; /* Font for the entire page */
       }
       .table td {
         font-weight: bold;
@@ -114,14 +113,14 @@
     <div class="container mt-5">
       <h1
         class="text-center text-decoration-underline my-4"
-        style="font-family: 'Noto Sans Lao', sans-serif"
+        style="font-family: Noto Sans Lao, sans-serif"
       >
         ປະຫວັດຫຍໍ້ນັກສຶກສາ
       </h1>
 
       <h3
         class="text-decoration-underline"
-        style="font-family: 'Noto Sans Lao', sans-serif"
+        style="font-family: Noto Sans Lao, sans-serif"
       >
         ປະຫວັດສ່ວນຕົວ
       </h3>
@@ -144,7 +143,7 @@
 
       <h3
         class="text-decoration-underline name"
-        style="font-family: 'Noto Sans Lao', sans-serif"
+        style="font-family: Noto Sans Lao, sans-serif"
       >
         ປະຫວັດການຮຽນ
       </h3>
@@ -164,7 +163,7 @@
 
       <h3
         class="text-decoration-underline family"
-        style="font-family: 'Noto Sans Lao', sans-serif"
+        style="font-family: Noto Sans Lao, sans-serif"
       >
         ລາຍຊື່ຄອບຄົວ
       </h3>
@@ -186,43 +185,116 @@
           </tr>
           <tr>
             <td class="tell">2</td>
-            <td class="name">ນາງຈະວະ ລີລະຈິດ ລວງພະບາງ</td>
-            <td class="name">ແມ່</td>
-            <td class="tell">2054886412</td>
+            <td class="name">ນາງຈັນທີ ລີລະຈິດ ຫຼວງພະບາງ</td>
+            <td class="name">ເອື້ອຍ</td>
+            <td class="tell">2052252450</td>
           </tr>
           <tr>
             <td class="tell">3</td>
-            <td class="name">ນາງບໍ່ຊະ ລີລະຈິດ ເຫິງປະຊົນ</td>
-            <td class="name">ແມ່</td>
-            <td class="tell">2054886413</td>
+            <td class="name">ທ້າວຫຼວງເທວາ ລີລະຈິດ ຫຼວງພະບາງ</td>
+            <td class="name">ນ້ອງ</td>
+            <td class="tell">2052299000</td>
           </tr>
         </tbody>
       </table>
+      <h3
+        class="text-decoration-underline photo"
+        style="font-family: Noto Sans Lao, sans-serif"
+      >
+        ຮູບພາບ
+      </h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="img/2.jpg" alt="One" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/3.jpg" alt="Two" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/4.jpg" alt="Three" class="img-fluid" />
+        </div>
+      </div>
+
+      <h3
+        class="text-decoration-underline Video"
+        style="font-family: Noto Sans Lao, sans-serif"
+      >
+        ວິດີໂອ
+      </h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zc3iV5UmK7U?si=XwzSJSlzJO94Vp2l"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe
+      ><br />
 
       <div class="form-container">
-        <h3 class="form-title" style="font-family: 'Noto Sans Lao', sans-serif">
-          ຟອມບັດບັດໃນແຕ່ລະປະເພດ
-        </h3>
         <form>
+          <h3
+            class="text-decoration-underline mt-5"
+            style="font-family: Noto Sans Lao, sans-serif"
+          >
+            ຟອມປ້ອນຂໍ້ມູນ
+          </h3>
           <div class="form-group">
-            <label for="name">ຊື່ ແລະ ນາມສະກຸນ</label>
-            <input type="text" class="form-control" id="name" />
+            <label
+              for="email"
+              class="name"
+              style="font-family: Noto Sans Lao, sans-serif"
+              >ອີເມວ</label
+            >
+            <input
+              type="email"
+              class="form-control name"
+              style="font-family: Noto Sans Lao, sans-serif"
+              id="email"
+              placeholder="ປ້ອນອີເມວ"
+            />
           </div>
+
           <div class="form-group">
-            <label for="age">ອາຍຸ</label>
-            <input type="number" class="form-control" id="age" />
+            <label for="password name">ລະຫັດຜ່ານ</label>
+            <input
+              type="password"
+              class="form-control name"
+              style="font-family: Noto Sans Lao, sans-serif"
+              id="password"
+              placeholder="ປ້ອນລະຫັດຜ່ານ"
+            />
           </div>
-          <div class="form-group">
-            <label for="phone">ເບີໂທ</label>
-            <input type="tel" class="form-control" id="phone" />
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check" />
+            <label
+              class="form-check-label name"
+              for="check"
+              style="font-family: Noto Sans Lao, sans-serif"
+              >ຈຳລະຫັດຜ່ານ</label
+            >
           </div>
-          <button type="submit" class="btn btn-primary">ສົ່ມ</button>
-          <button type="reset" class="btn btn-secondary">ລົບ</button>
+
+          <button
+            type="submit"
+            class="btn btn-primary mt-3 name"
+            style="font-family: Noto Sans Lao, sans-serif"
+          >
+            ບັນທຶກ
+          </button>
+          <button
+            type="reset"
+            class="btn btn-secondary mt-3 name"
+            style="font-family: Noto Sans Lao, sans-serif"
+          >
+            ຍົກເລີກ
+          </button>
         </form>
       </div>
     </div>
-
-    <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
