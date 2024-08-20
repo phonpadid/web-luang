@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ທ້າວ ຫຼວງ</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        background-color: #7aa7d4; /* Custom background color */
+        font-family: Noto Sans Lao, sans-serif; /* Font for the entire page */
+      }
+      .table td {
+        font-weight: bold;
+      }
+
+      h1,
+      h3 {
+        color: #ffffff;
+        text-shadow: 1px 1px 2px #000000;
+      }
+
+      h1 {
+        background-color: #003366;
+        padding: 15px;
+        border-radius: 8px;
+      }
+
+      h3 {
+        background-color: #004080;
+        padding: 10px;
+        border-radius: 6px;
+      }
+
+      .numto,
+      .age,
+      .family,
+      .photo,
+      .video,
+      .number,
+      li {
+        color: aliceblue;
+        margin-bottom: 15px;
+      }
+      .name {
+      }
+
+      .age,
+      .tell {
+        font-family: "Times New Roman", serif;
+      }
+
+      .form-container {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        margin-bottom: 30px;
+      }
+
+      .form-title {
+        margin-bottom: 20px;
+        color: #333333;
+      }
+
+      .form-group label {
+        font-weight: bold;
+      }
+
+      .form-check-label {
+        font-weight: normal;
+      }
+
+      .btn-primary {
+        background-color: #0056b3;
+        border-color: #004080;
+      }
+
+      .btn-secondary {
+        background-color: #6c757d;
+        border-color: #5a6268;
+      }
+
+      .table {
+        background-color: #ffffff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .thead-dark th {
+        background-color: #003366;
+        color: #ffffff;
+      }
+
+      .img-fluid {
+        border-radius: 8px;
+        border: 2px solid #004080;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center text-decoration-underline my-4">
+        ປະຫວັດຫຍໍ້ນັກສຶກສາ
+      </h1>
+
+      <h3 class="text-decoration-underline">ປະຫວັດສ່ວນຕົວ</h3>
+      <div class="row mb-4">
+        <div class="col-md-2">
+          <img src="img/1l.jpg" alt="luang" class="img-fluid rounded mb-3" />
+        </div>
+        <div class="col-md-10" style="font-weight: bold">
+          <span class="numto">
+            <span class="name-span"
+              >ຊື່ ແລະ ນາມສະກຸນ: ທ້າວ ຫຼວງເທວາ ລີລະຈິດ </span
+            ><br />
+            ວັນ,ເດືອນ,ປີເກີດ: <span class="age">25/00/2003 </span> <br />
+            ບ້ານເກີດ: ບ້ານ ຫາດຮ່ຽນ ເມືອງແລະແຂວງຫຼວງພະບາງ ບ້ານເກີດແລະປັດຈຸບັນ<br />
+            ເບີໂທ: <span class="age">02052299009</span><br />
+            ອີເມວ:<span class="age">louangtheva52299009@gmail.com</span>
+          </span>
+        </div>
+      </div>
+
+      <h3 class="text-decoration-underline name">ປະຫວັດການຮຽນ</h3>
+      <ul>
+        <li style="font-weight: bold">
+          ປີ <span class="age">2007-2012</span> ສຶກສາຢູ່ທີ່ ຮຮ
+          ປະຖົມສົມບູນຫາດຮ່ຽນ
+        </li>
+        <li style="font-weight: bold">
+          ປີ <span class="age">2012-2021</span> ສຶກສາຢູ່ທີ່ ຮຮ ມສ ສັນຕິພາບ
+        </li>
+        <li style="font-weight: bold">
+          ປີ <span class="age">2021-2024</span> ສຶກສາຢູ່ທີ່
+          ມະຫາວິທະຍາໄລສຸພານຸວົງ
+        </li>
+      </ul>
+
+      <h3 class="text-decoration-underline family">ລາຍຊື່ຄອບຄົວ</h3>
+      <table class="table table-bordered">
+        <thead class="thead-dark">
+          <tr>
+            <th class="number">ລຳດັບ</th>
+            <th class="name">ຊື່ ແລະ ນາມສະກຸນ</th>
+            <th class="name">ສາຍພົວພັນ</th>
+            <th class="name">ເບີໂທ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="tell">1</td>
+            <td class="name">ທ້າວ ເທວັນ ລີລະຈິດ ຫຼວງພະບາງ</td>
+            <td class="name">ອ້າຍ</td>
+            <td class="tell">2054886411</td>
+          </tr>
+          <tr>
+            <td class="tell">2</td>
+            <td class="name">ນາງຈັນທີ ລີລະຈິດ ຫຼວງພະບາງ</td>
+            <td class="name">ເອື້ອຍ</td>
+            <td class="tell">2052252450</td>
+          </tr>
+          <tr>
+            <td class="tell">3</td>
+            <td class="name">ທ້າວຫຼວງເທວາ ລີລະຈິດ ຫຼວງພະບາງ</td>
+            <td class="name">ນ້ອງ</td>
+            <td class="tell">2052299000</td>
+          </tr>
+        </tbody>
+      </table>
+      <h3 class="text-decoration-underline photo">ຮູບພາບ</h3>
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <img src="img/2.jpg" alt="One" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/3.jpg" alt="Two" class="img-fluid" />
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="img/4.jpg" alt="Three" class="img-fluid" />
+        </div>
+      </div>
+
+      <h3 class="text-decoration-underline Video">ວິດີໂອ</h3>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/zc3iV5UmK7U?si=XwzSJSlzJO94Vp2l"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe
+      ><br />
+
+      <div class="form-container">
+        <form>
+          <h3 class="text-decoration-underline mt-5">ຟອມປ້ອນຂໍ້ມູນ</h3>
+          <div class="form-group">
+            <label for="email" class="name">ອີເມວ</label>
+            <input
+              type="email"
+              class="form-control name"
+              id="email"
+              placeholder="ປ້ອນອີເມວ"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="password name">ລະຫັດຜ່ານ</label>
+            <input
+              type="password"
+              class="form-control name"
+              id="password"
+              placeholder="ປ້ອນລະຫັດຜ່ານ"
+            />
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check" />
+            <label class="form-check-label name" for="check">ຈຳລະຫັດຜ່ານ</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary mt-3 name">
+            ບັນທຶກ
+          </button>
+          <button type="reset" class="btn btn-secondary mt-3 name">
+            ຍົກເລີກ
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
